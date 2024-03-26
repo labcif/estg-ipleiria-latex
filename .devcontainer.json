@@ -1,0 +1,12 @@
+{
+    "name": "estg-ipleiria-latex",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "./.devcontainer/features/latex": {
+        "scheme": "full",
+        "mirror": "https://eu.mirrors.cicku.me/ctan/systems/texlive/tlnet"
+      },
+      "ghcr.io/devcontainers/features/python:1":{}
+   },
+   "postCreateCommand": "pip install Pygments"
+}
