@@ -2,6 +2,8 @@
 
 This template can be used for a thesis written in the degree MCIF of ESTG IPLeiria.
 
+To download to your computer click "Code > Download zip"
+
 ## Devcontainer
 
 This template comes with a [devcontainer](https://code.visualstudio.com/docs/devcontainers/containers) allowing compilation of the document in vscode without having to install all the necessary tools by hand. The devcontainer will automatically create a docker container to run the Latex compilation tools, and works either in Windows or Linux. The container will have a Tex Live installation and the [vscode latex extension](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) should be used for working in the document. 
