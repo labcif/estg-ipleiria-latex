@@ -2,7 +2,7 @@
   "name": "estg-ipleiria-latex",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
-    "./.devcontainer/features/latex": {
+    "ghcr.io/prulloac/devcontainer-features/latex:1.3.0": {
       "scheme": "full",
       "mirror": "https://eu.mirrors.cicku.me/ctan/systems/texlive/tlnet"
     },
