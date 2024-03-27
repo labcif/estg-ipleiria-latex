@@ -15,3 +15,17 @@ To use the devcontainer:
 3. Open this directory in vscode
 4. Click on the green square in the left bottom corner of the vscode window and select "Reopen in container". This will create a docker container with TexLive installed. This has to be done only once but might take 1h to complete.
 
+## Installing dependencies without using docker
+
+1. Install Tex Live full
+2. Install python Pygments package: `pip install Pygments`
+
+## Compiling with makefile
+
+```
+make pdf
+```
+
+## Compiling with vscode
+
+Use "Build LaTeX project" from the Latex workshop menu
